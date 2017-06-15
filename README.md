@@ -80,15 +80,15 @@ Wenn **nicht nur** textliche Änderungen vorgenommen wurden, den Kommentar des C
 
 ## Mitwirken
 
-Im Prinzip kann jeder und jede an dem Buch mitschreiben. Mitwirkende Autoren erscheinen automatisch in der Danksagung im Buch und im Autorenverzeichnis. Jede Änderung wird jedoch nicht einfach übernommen, sondern geprüft und oder besprochen. Es ist allerdings eine Unterscheidung zwischen Beitragenden zu machen.
+Im Prinzip kann jeder und jede an dem Buch mitschreiben. Mitwirkende Autoren und Autorinnen erscheinen automatisch in der Danksagung im Buch und im AutorInnenverzeichnis. Jede Änderung wird jedoch nicht einfach übernommen, sondern geprüft und oder besprochen. Es ist allerdings eine Unterscheidung zwischen Beitragenden zu machen.
 
 * Ohne GitHub-Account
 
-Solche, die keinen (kostenlosen und wirklich einfach zu machenden) GitHub-Account besitzen, aber dennoch mitwirken wollen, werden dies durch E-Mail-Verkehr mit nanomiratus@gmail.com machen müssen. Eine E-Mail mit dem Betreff "Dafern" genügt. Diese Änderungen werden zwar von meinem Account aus in die Repository eingepflegt, der Name des Autors bzw. der Autorin, sofern er bzw. sie ihn preisgeben will, wird trotzdem in der Danksagung und dem Autorenverzeichnisses des Buches erscheinen.
+Solche, die keinen (kostenlosen und wirklich einfach zu machenden) GitHub-Account besitzen, aber dennoch mitwirken wollen, werden dies durch E-Mail-Verkehr mit nanomiratus@gmail.com machen müssen. Eine E-Mail mit dem Betreff "Dafern" genügt. Diese Änderungen werden zwar von meinem Account aus in die Repository eingepflegt, der Name des Autors bzw. der Autorin, sofern er bzw. sie ihn preisgeben will, wird trotzdem in der Danksagung und dem AutorInnenverzeichnisses des Buches erscheinen.
 
 * Ohne Build
 
-Wer die Systemvorraussetzungen für den Build-Prozess nicht besitzt, kann dennoch mitwirken, indem der- bzw. diejenige einfach nur den Quellcode editiert. Diese Änderung wird nicht automatisch in der Repository erscheinen, sondern funktioniert wie eine eigene Version des Originals. Um jene Änderung dann vorzuschlagen, ist eine Pull-Request nötig, die dann angenommen oder abgelehnt wird. Danach muss der geänderte Quellcode aber noch in die Endformate konvertiert werden, was spätestens beim nächsten Build ohnehin gemacht wird. Solche Änderungen sind also eventuell nicht sofort im fertigen Produkt enthalten.
+Wer die Systemvorraussetzungen für den Build-Prozess nicht besitzt, kann dennoch mitwirken, indem der- bzw. diejenige einfach nur den Quellcode auf Github editiert. Diese Änderungen werden nicht automatisch in der Repository erscheinen, sondern funktionieren wie eine eigene Version des Originals. Um jene Änderung dann vorzuschlagen, ist eine Pull-Request nötig, die dann angenommen oder abgelehnt wird. Danach muss der geänderte Quellcode aber noch in die Endformate konvertiert werden, was spätestens beim nächsten Build ohnehin gemacht wird. Solche Änderungen sind also eventuell nicht sofort im fertigen Produkt enthalten.
 
 * Ohne Build und ohne Markdownkenntnisse
 
