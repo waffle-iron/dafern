@@ -6,7 +6,7 @@
 
 Gelesen werden kann es jederzeit als [PDF](https://github.com/nnmrts/dafern/blob/master/build/dafern.pdf), als [Markdown-Dokument](https://github.com/nnmrts/dafern/blob/master/build/dafern.md) und als[HTML-Seite](https://github.com/nnmrts/dafern/blob/master/build/dafern.html).
 
-## Autoren
+## Autorinnen und Autoren
 
 * Nano Miratus
 
@@ -80,20 +80,20 @@ Wenn **nicht nur** textliche Änderungen vorgenommen wurden, den Kommentar des C
 
 ## Mitwirken
 
-Im Prinzip kann jeder und jede an dem Buch mitschreiben. Mitwirkende Autoren und Autorinnen erscheinen automatisch in der Danksagung im Buch und im AutorInnenverzeichnis. Jede Änderung wird jedoch nicht einfach übernommen, sondern geprüft und oder besprochen. Es ist allerdings eine Unterscheidung zwischen Beitragenden zu machen.
+Im Prinzip kann jede und jeder an dem Buch mitschreiben. Mitwirkende Autorinnen und Autoren erscheinen automatisch in der Danksagung im Buch und im AutorInnenverzeichnis. Jede Änderung wird jedoch nicht einfach übernommen, sondern geprüft und oder besprochen. Es ist allerdings eine Unterscheidung zwischen Beitragenden zu machen.
 
-* Ohne GitHub-Account
+### Ohne GitHub-Account
 
-Solche, die keinen (kostenlosen und wirklich einfach zu machenden) GitHub-Account besitzen, aber dennoch mitwirken wollen, werden dies durch E-Mail-Verkehr mit nanomiratus@gmail.com machen müssen. Eine E-Mail mit dem Betreff "Dafern" genügt. Diese Änderungen werden zwar von meinem Account aus in die Repository eingepflegt, der Name des Autors bzw. der Autorin, sofern er bzw. sie ihn preisgeben will, wird trotzdem in der Danksagung und dem AutorInnenverzeichnisses des Buches erscheinen.
+Solche, die keinen (kostenlosen und wirklich einfach zu machenden) GitHub-Account besitzen, aber dennoch mitwirken wollen, werden dies durch E-Mail-Verkehr mit nanomiratus@gmail.com machen müssen. Eine E-Mail mit dem Betreff "Dafern" genügt. Diese Änderungen werden zwar von meinem Account aus in die Repository eingepflegt, der Name der Autorin bzw. des Autors, sofern sie bzw. er ihn preisgeben will, wird trotzdem in der Danksagung und dem AutorInnenverzeichnisses des Buches erscheinen.
 
-* Ohne Build
+### Ohne Build
 
-Wer die Systemvorraussetzungen für den Build-Prozess nicht besitzt, kann dennoch mitwirken, indem der- bzw. diejenige einfach nur den Quellcode auf Github editiert. Diese Änderungen werden nicht automatisch in der Repository erscheinen, sondern funktionieren wie eine eigene Version des Originals. Um jene Änderung dann vorzuschlagen, ist eine Pull-Request nötig, die dann angenommen oder abgelehnt wird. Danach muss der geänderte Quellcode aber noch in die Endformate konvertiert werden, was spätestens beim nächsten Build ohnehin gemacht wird. Solche Änderungen sind also eventuell nicht sofort im fertigen Produkt enthalten.
+Wer die Systemvorraussetzungen für den Build-Prozess nicht besitzt, kann dennoch mitwirken, indem die- bzw. derjenige einfach nur den Quellcode auf Github editiert. Diese Änderungen werden nicht automatisch in der Repository erscheinen, sondern funktionieren wie eine eigene Version des Originals. Um jene Änderung dann vorzuschlagen, ist eine Pull-Request nötig, die dann angenommen oder abgelehnt wird. Danach muss der geänderte Quellcode aber noch in die Endformate konvertiert werden, was spätestens beim nächsten Build ohnehin gemacht wird. Solche Änderungen sind also eventuell nicht sofort im fertigen Produkt enthalten.
 
-* Ohne Build und ohne Markdownkenntnisse
+### Ohne Build und ohne Markdownkenntnisse
 
-Nicht jeder bzw. jede hat das Know-How, um den Quellcode erfolgreich zu editieren. Dafür ist der "Issues"-Bereich da, wo man auch textliche Änderungen vorschlagen kann.
+Nicht jede bzw. jeder hat das Know-How, um den Quellcode erfolgreich zu editieren. Dafür ist der "Issues"-Bereich da, wo man auch textliche Änderungen vorschlagen kann.
 
-* Mit Build
+### Mit Build
 
 Wessen Arbeitsplatz die Vorraussetzungen erfüllt, die für den Buildprozess nötig sind, folgt bitte der Anleitung im Bereich "Build". Der sonstige Ablauf gleicht dem der Beitragenden, die das Buch nicht selbst builden können.
