@@ -1,0 +1,27 @@
+// Platzieren Sie Ihre Einstellungen in dieser Datei, um Standard- und Benutzereinstellungen zu überschreiben.
+{
+	"files.exclude": {
+		"**/.git": false,
+		"**/.svn": false,
+		"**/.hg": false,
+		"**/CVS": false,
+		"**/.DS_Store": false
+	},
+	"editor.formatOnSave": true,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"html.format.indentInnerHtml": true,
+	"jshint.options": {
+		"esversion": 6
+	},
+	"htmlhint.options": {
+		"doctype-first": false
+	},
+	"autoprefixer.formatOnSave": true,
+	"markdownlint.config": {
+		"MD013": false,
+		"MD029": {
+			"style": "ordered"
+		}
+	}
+}
