@@ -78,7 +78,7 @@ function buildMd ($type) {
         $document = ($document) -replace ' \{(.*?)\}', ''
         $document = ($document) -replace '(?!^)\[\^(.*?)\]', '<sup id="a$1">[$1](#f$1)</sup>'
         $document = ($document) -replace '<sup(.*?)\[(.*?)\](.*?)sup>: (.*?)\n', '<b id="f$2">[$2](#a$2)</b>: $4'
-        # $document = ($document) -replace '\[↩\]\(\#a(.*?)\)<b id="f(.*?)">(.*?)</b>(.*?)\n'
+        $document = ($document) -replace '<b id="f1">\[1\]\(\#a1\)</b>', "---`n<b id='f1'>[1](#a1)</b>"
 
         Set-Content .\build\dafern.md $document
 

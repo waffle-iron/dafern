@@ -70,7 +70,8 @@ Wisst ihr, gewisse Prinzipien sind gesund. Gewisse Prinzipien sollte man einfach
 
 Mein Handy habe ich also nicht aufgeladen. Manchmal tut es auch gut, wenn man nur für sich selbst ein schlechter Mensch ist.
 
-<b id="f1">[1](#a1)</b>: Ich wünschte, »beschweren« wäre ein reines Passiv-Wort. Ich fände es einfach viel logischer zu sagen »etwas beschwert mich« als zu sagen »ich beschwere mich über etwas«. Ah hoppla, anscheinend kann man »beschweren« so verwenden, sagt der Duden.
+---
+<b id='f1'>[1](#a1)</b>: Ich wünschte, »beschweren« wäre ein reines Passiv-Wort. Ich fände es einfach viel logischer zu sagen »etwas beschwert mich« als zu sagen »ich beschwere mich über etwas«. Ah hoppla, anscheinend kann man »beschweren« so verwenden, sagt der Duden.
 <b id="f2">[2](#a2)</b>: Ich denke, die übertriebene Weinerlichkeit über meine Fernbeziehung ist jetzt schon ein Abfuck für jeden anderen und mit diesem Absatz wird sie unerträglich, durch diese subtile Depressivität, die hier mitschwingt. Tut mir leid, ich bin nicht mehr wirklich dazu fähig, erfolgreich über etwas anderes zu schreiben. Na gut, Flüchtlinge gehen auch immer, aber dann ist mein Horizont auch schon am Zenit. (Kleiner Joke für alle sphärischen Astronomen unter uns.)
 <b id="f3">[3](#a3)</b>: »Der Weise \[…\] fühlt kein Mitleid, weil dies ohne Leiden der Seele nicht geschehen kann. Alles andere, das meiner Ansicht nach die Mitleidigen tun sollten, wird er gern und hochgemut tun: zu Hilfe kommen wird er fremden Tränen, aber sich ihnen nicht anschließen; reichen wird er die Hand dem Schiffbrüchigen, \[…\] dem Armen eine Spende geben, aber nicht eine erniedrigende, wie sie der größere Teil der Menschen, die mitleidig erscheinen wollen, hinwirft und damit die verachtet, denen er hilft.«
 <b id="f4">[4](#a4)</b>: »Mitleid ist bei einem Menschen, der nach der Leitung der Vernunft lebt, an sich schlecht und unnütz.«
