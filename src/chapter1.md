@@ -30,4 +30,4 @@ Ja ja, ich will ja eh nicht ausschließen, dass du auch ganz gut ohne Publikum a
 
 [^8]: Doch, will ich.
 
-[^9]: "komisch" im Sinne von lustig mit einem Beigeschmack von fragwürdig; zur Erklärung von "fragwürdig" siehe Seite 4.
+[^9]: "komisch" im Sinne von lustig mit einem Beigeschmack von fragwürdig; zur Erklärung von "fragwürdig" siehe Seite 5.

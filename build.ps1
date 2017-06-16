@@ -35,7 +35,7 @@ function buildMd ($type) {
 
         $newMetadata2 = $newMetadata2 -replace '\{(.*?)\}', ''
 
-        $newMetadata2 = $newMetadata2 -replace '!\[book cover\]\(\.\\images\\daferncover\.png\)', '![book cover](/images/daferncover.png)'
+        $newMetadata2 = $newMetadata2 -replace '!\[\]\(\.\\images\\daferncover\.png\)', '![](/images/daferncover.png)'
 
         $newMetadata = $newMetadata1
 

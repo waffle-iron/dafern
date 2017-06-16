@@ -1,6 +1,6 @@
 # Dafern
 
-![book cover](/images/daferncover.png)
+![](/images/daferncover.png)
 
 ## Bayern
 
@@ -79,7 +79,7 @@ Mein Handy habe ich also nicht aufgeladen. Manchmal tut es auch gut, wenn man nu
 <b id="f6">[6](#a6)</b>: Natürlich weiß ich nicht, warum. Ich weiß auch nicht, warum sich Orgasmen toll anfühlen oder warum ich es schön finde, von jemandem bemuttert zu werden und das soll auch so bleiben.
 <b id="f7">[7](#a7)</b>: Ja, ich hasse dieses Wort auch.
 <b id="f8">[8](#a8)</b>: Doch, will ich.
-<b id="f9">[9](#a9)</b>: »komisch« im Sinne von lustig mit einem Beigeschmack von fragwürdig; zur Erklärung von »fragwürdig« siehe Seite 4.
+<b id="f9">[9](#a9)</b>: »komisch« im Sinne von lustig mit einem Beigeschmack von fragwürdig; zur Erklärung von »fragwürdig« siehe Seite 5.
 <b id="f10">[10](#a10)</b>: Wir müssen daran arbeiten, ein einfacheres phonetisches Alphabet für den Alltag zu entwickeln. Bis dahin kann ich euch leider nicht beschreiben, wie dieses »Heeey!« klingt.
 <b id="f11">[11](#a11)</b>: Hier stand einst eine Fußnote, doch über manche Dinge schickt es sich zu schweigen.
 <b id="f12">[12](#a12)</b>: Es sollte für dieses Gefühl ein Wort geben. Vielleicht auch nicht.
