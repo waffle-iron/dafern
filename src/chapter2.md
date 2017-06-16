@@ -1,4 +1,4 @@
-# 3 Billionstel {-}
+## 3 Billionstel {-}
 
 Tabakrauch enthält über 70 Stoffe, die erwiesenermaßen krebserregend sind. Ich lebe noch und wache auf, wünschend, ich wäre nie schlafen gegangen. Ich dusche mich und hasse es, ich hasse es frisch zu sein, ich hasse es, nicht müde zu sein. Ich kann in diesem Zustand und um diese Uhrzeit keinen Alkohol trinken, Kaffee würde mich hyperaktiv machen und der Gedanke daran, gleich auf andere Menschen zu treffen, fühlt sich unangenehmer an, als für immer alleine auf diesem Planeten zu leben.
 

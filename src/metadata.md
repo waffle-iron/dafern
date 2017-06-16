@@ -9,7 +9,5 @@ fontfamily: baskervillef
 geometry: [a5paper, margin=20mm]
 ---
 
-![][cover]
-
-[cover]: .\images\daferncover.png {width="11.202cm"
+![](.\images\daferncover.png){width="11.202cm"
 height="11.202cm"}

@@ -6,9 +6,48 @@ function quots2Chevrons($text) {
     $text -replace '"(.*?)"', '»$1«'
 }
 
-function buildMd () {
-    $listOfFiles = ".\src\metadata.md "
-	
+function buildMd ($type) {
+
+    if ($type -eq "first") {
+        $params = '-s '
+
+        $listOfFiles = ".\src\metadata.md "
+    }
+    else {
+        $listOfFiles = ".\build\metadata.md "
+        $params = ''
+
+        $title = "# Dafern"
+
+        $metadata = Get-Content .\src\metadata.md
+
+        $newMetadata1 = $title
+
+        $newMetadata1 += $("" | Out-String)
+
+        $newMetadata1 += $("" | Out-String)
+
+        $newMetadata2 = ""
+
+        $newMetadata2 += $metadata
+
+        $newMetadata2 = $newMetadata2 -replace '\-\-\-(.*?)\-\-\-', ''
+
+        $newMetadata2 = $newMetadata2 -replace '\{(.*?)\}', ''
+
+        $newMetadata = $newMetadata1
+
+        # $newMetadata += '![][cover]'
+
+        # $newMetadata += $("" | Out-String)
+
+        # $newMetadata += $("" | Out-String)
+
+        $newMetadata += $newMetadata2
+
+        Set-Content .\build\metadata.md $newMetadata
+    }
+
     for ($i = 0; $i -lt $files.Count; $i++) {
         $input = Get-Content $files[$i].FullName
         $output = quots2Chevrons $input
@@ -19,8 +58,8 @@ function buildMd () {
         $listOfFiles += $files[$i].Name
         $listOfFiles += " "
     }
-
-    $params = '-s --from=markdown+emoji --to=markdown --atx-headers --preserve-tabs'
+	
+    $params += '--from=markdown+emoji --to=markdown --atx-headers --wrap=none --preserve-tabs'
 
     $command = 'pandoc'
     $command += ' '
@@ -31,14 +70,29 @@ function buildMd () {
 
     Invoke-Expression $command
 
+    if ($type -eq "first") {
+
+    }
+    else {
+        $document = Get-Content .\build\dafern.md -Raw
+        $document = ($document) -replace ' \{(.*?)\}', ''
+        $document = ($document) -replace '(?!^)\[\^(.*?)\]', '<sup id="a$1">[$1](#f$1)</sup>'
+        $document = ($document) -replace '<sup(.*?)\[(.*?)\](.*?)sup>: (.*?)\n', '<b id="f$2">[$2](#a$2)</b>: $4'
+        # $document = ($document) -replace '\[↩\]\(\#a(.*?)\)<b id="f(.*?)">(.*?)</b>(.*?)\n'
+
+        Set-Content .\build\dafern.md $document
+
+        Remove-Item .\build\metadata.md
+    }
+
     Remove-Item .\build\chapter*.md
 }
 
 function buildFromMd($format) {
-    $params = '-s -S --from=markdown+emoji --self-contained --atx-headers --normalize --preserve-tabs --reference-location=block'
+    $params = '--from=markdown+emoji --self-contained --atx-headers --normalize --preserve-tabs --reference-location=block'
 
     if ($format -eq "pdf") {
-        $params += ' --template=".\templates\default.tex" .\build\dafern.md -o build\dafern.pdf'
+        $params += ' -s -S --template=".\templates\default.tex" .\build\dafern.md -o build\dafern.pdf'
     }
     elseif ($format -eq "html") {
         $params += ' .\build\dafern.md --to=html5 -o build\dafern.html'
@@ -49,6 +103,7 @@ function buildFromMd($format) {
     Invoke-Expression $command
 }
 
-buildMd
+buildMd "first"
 buildFromMd "pdf"
 buildFromMd "html"
+buildMd

@@ -4,7 +4,7 @@
 
 "Dafern" ist ein *unvollständiges* Buch, geschrieben in deutscher Sprache.
 
-Gelesen werden kann es jederzeit als [PDF](https://github.com/nnmrts/dafern/blob/master/build/dafern.pdf), als [Markdown-Dokument](https://github.com/nnmrts/dafern/blob/master/build/dafern.md) und als[HTML-Seite](https://github.com/nnmrts/dafern/blob/master/build/dafern.html).
+Gelesen werden kann es jederzeit als [PDF](https://github.com/nnmrts/dafern/raw/master/build/dafern.pdf), als [Markdown-Dokument](https://github.com/nnmrts/dafern/blob/master/build/dafern.md) und als [HTML-Seite](https://github.com/nnmrts/dafern/blob/master/build/dafern.html).
 
 ## Autorinnen und Autoren
 
