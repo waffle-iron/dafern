@@ -1,6 +1,6 @@
 # Dafern
 
-![book cover](.\images\daferncover.png)
+![book cover](/images/daferncover.png)
 
 ## Bayern
 
