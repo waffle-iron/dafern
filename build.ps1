@@ -37,12 +37,6 @@ function buildMd ($type) {
 
         $newMetadata = $newMetadata1
 
-        # $newMetadata += '![][cover]'
-
-        # $newMetadata += $("" | Out-String)
-
-        # $newMetadata += $("" | Out-String)
-
         $newMetadata += $newMetadata2
 
         Set-Content .\build\metadata.md $newMetadata
@@ -75,6 +69,7 @@ function buildMd ($type) {
     }
     else {
         $document = Get-Content .\build\dafern.md -Raw
+        $document = ($document) -replace '\#(?! Dafern)', '##'
         $document = ($document) -replace ' \{(.*?)\}', ''
         $document = ($document) -replace '(?!^)\[\^(.*?)\]', '<sup id="a$1">[$1](#f$1)</sup>'
         $document = ($document) -replace '<sup(.*?)\[(.*?)\](.*?)sup>: (.*?)\n', '<b id="f$2">[$2](#a$2)</b>: $4'
