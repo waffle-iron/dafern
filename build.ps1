@@ -1,3 +1,11 @@
+param(
+    [switch]$nopdf = $false,
+    [switch]$nohtml = $false,
+    [switch][alias("d")]$debug = $false
+)
+
+
+
 $files = Get-ChildItem "src" -Filter chapter*.md
 
 $output = ""
@@ -45,8 +53,10 @@ function buildMd ($type) {
     }
 
     for ($i = 0; $i -lt $files.Count; $i++) {
-        $input = Get-Content $files[$i].FullName
+        $input = Get-Content $files[$i].FullName -Raw
         $output = quots2Chevrons $input
+        $output = $output -replace "\# ([\w, ]+)*", '# $1 {-}'
+        $output += $("" | Out-String)
     
         Set-Content .\build\$($files[$i].Name) $output
 
@@ -67,7 +77,6 @@ function buildMd ($type) {
     Invoke-Expression $command
 
     if ($type -eq "first") {
-
     }
     else {
         $document = Get-Content .\build\dafern.md -Raw
@@ -79,20 +88,24 @@ function buildMd ($type) {
 
         Set-Content .\build\dafern.md $document
 
-        Remove-Item .\build\metadata.md
+        if (!$debug) {
+            Remove-Item .\build\metadata.md
+        }
+        
     }
-
-    Remove-Item .\build\chapter*.md
+    if (!$debug) {
+        Remove-Item .\build\chapter*.md
+    }
 }
 
 function buildFromMd($format) {
-    $params = '--from=markdown+emoji --self-contained --atx-headers --normalize --preserve-tabs --reference-location=block'
+    $params = '.\build\dafern.md --from=markdown+emoji --atx-headers --normalize --preserve-tabs --reference-location=block'
 
     if ($format -eq "pdf") {
-        $params += ' -s -S --template=".\templates\default.tex" .\build\dafern.md -o build\dafern.pdf'
+        $params += ' --template=".\templates\default.tex" -o build\dafern.pdf'
     }
     elseif ($format -eq "html") {
-        $params += ' .\build\dafern.md --to=html5 -o build\dafern.html'
+        $params += ' --self-contained --to=html5 -o build\dafern.html'
     }
 
     $command = 'pandoc '
@@ -101,6 +114,11 @@ function buildFromMd($format) {
 }
 
 buildMd "first"
-buildFromMd "pdf"
-buildFromMd "html"
+if (!$nopdf) {
+    buildFromMd "pdf"
+}
+
+if (!$nohtml) {
+    buildFromMd "html"
+}
 buildMd
