@@ -50,7 +50,7 @@ function buildMd ($type) {
 
 		$newMetadata2 = $newMetadata2 -replace '\{(.*?)\}', ''
 
-		$newMetadata2 = $newMetadata2 -replace '!\[\]\(\.\\images\\daferncover\.png\)', '![](/images/daferncover.png)'
+		$newMetadata2 = $newMetadata2 -replace '!\[\]\(\.\\images\\daferncover\.png\)', '![](../images/daferncover.png)'
 
 		$newMetadata = $newMetadata1
 
@@ -118,6 +118,13 @@ function buildFromMd($format) {
 	$command = 'pandoc '
 	$command += $params
 	Invoke-Expression $command
+
+	if ($format -eq "html") {
+		$htmlDocument = Get-Content .\build\dafern.html -Raw
+		$htmlDocument = $htmlDocument -replace '\.\\images\\daferncover\.png', '../images/daferncover.png'
+
+		Set-Content .\build\dafern.html $htmlDocument
+	}
 }
 
 buildMd "first"

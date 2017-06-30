@@ -1,6 +1,6 @@
 # Dafern
 
-![](/images/daferncover.png)
+![](../images/daferncover.png)
 
 ## Bayern
 
