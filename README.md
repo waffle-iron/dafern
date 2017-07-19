@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/nnmrts/dafern.png?label=ready&title=Ready)](https://waffle.io/nnmrts/dafern?utm_source=badge)
 # Dafern
 
 ## Beschreibung
